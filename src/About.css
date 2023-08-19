@@ -1,0 +1,50 @@
+.image-side {
+    position: relative;
+    top: 60vh;
+    right: 10vw;
+    /* right: 5vw; */
+}
+
+.work-emoji {
+    bottom: 20px;
+    position: absolute;
+    right: 60px;
+    width: 5rem!important;
+    z-index: 10;
+}
+
+.image-side span {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    bottom: -20px;
+    height: 10rem;
+    position: absolute;
+    right: 20px;
+    width: 10rem;
+}
+
+.image-side span img {
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 5s linear infinite;
+    /* width: 19rem; */
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
