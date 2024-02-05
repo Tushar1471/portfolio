@@ -4,7 +4,6 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 // import image from '../assets/CV_page-0001.jpg';
 
-
 const SocialLinks = () => {
   const links = [
     {
@@ -14,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/tushar-malhotra-02573719b/",
+      href: "https://www.linkedin.com/in/tusharmalhotra-02573719b/",
       style: "rounded-tr-md",
     },
     {
